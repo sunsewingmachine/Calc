@@ -18,3 +18,4 @@ export const cashDrawerDaily = pgTable('cash_drawer_daily', {
 }))
 
 
+

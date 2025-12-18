@@ -12,3 +12,4 @@ export const transportDetails = pgTable('transport_details', {
 })
 
 
+

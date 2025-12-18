@@ -10,3 +10,4 @@ export const warehouses = pgTable('warehouses', {
 })
 
 
+

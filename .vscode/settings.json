@@ -1,0 +1,9 @@
+{
+  "git.autoRepositoryDetection": false,
+  "git.scanRepositories": [
+    "."
+  ],
+  "git.ignoreLimitWarning": true,
+  "git.enabled": true,
+  "git.detectSubmodules": false
+}

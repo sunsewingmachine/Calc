@@ -10,3 +10,5 @@ export const transportDetails = pgTable('transport_details', {
   freightAmount: numeric('freight_amount', { precision: 12, scale: 2 }),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

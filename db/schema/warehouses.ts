@@ -8,3 +8,5 @@ export const warehouses = pgTable('warehouses', {
   isActive: boolean('is_active').default(true).notNull(),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

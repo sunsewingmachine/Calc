@@ -12,3 +12,5 @@ export const transactionItems = pgTable('transaction_items', {
   discount: numeric('discount', { precision: 12, scale: 2 }).default('0').notNull(),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

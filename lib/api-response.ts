@@ -55,3 +55,5 @@ export function validationErrorResponse(
 ): ApiResponse {
   return errorResponse(message, 'VALIDATION_ERROR', details)
 }
+
+

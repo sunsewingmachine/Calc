@@ -8,3 +8,5 @@ export const transactionAttachments = pgTable('transaction_attachments', {
   fileType: text('file_type'),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

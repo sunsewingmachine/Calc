@@ -17,3 +17,5 @@ export const updatePartySchema = createPartySchema.partial()
 
 export type CreatePartyInput = z.infer<typeof createPartySchema>
 export type UpdatePartyInput = z.infer<typeof updatePartySchema>
+
+

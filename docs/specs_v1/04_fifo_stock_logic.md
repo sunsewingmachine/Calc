@@ -154,3 +154,5 @@ This FIFO logic ensures:
 - Simple opening stock handling
 - Zero stock inconsistencies
 
+
+

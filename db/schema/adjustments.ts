@@ -12,3 +12,5 @@ export const adjustments = pgTable('adjustments', {
   createdBy: uuid('created_by').references(() => parties.id),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

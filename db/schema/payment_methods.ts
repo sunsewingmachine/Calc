@@ -20,3 +20,5 @@ export const paymentMethods = pgTable('payment_methods', {
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

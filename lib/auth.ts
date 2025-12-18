@@ -132,3 +132,5 @@ export async function canAccessBranch(
   // Employee can only access assigned branches
   return user.branchIds.includes(branchId)
 }
+
+

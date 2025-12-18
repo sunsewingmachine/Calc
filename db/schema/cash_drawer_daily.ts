@@ -16,3 +16,5 @@ export const cashDrawerDaily = pgTable('cash_drawer_daily', {
 }, (table) => ({
   uniqueBranchDate: unique().on(table.branchId, table.businessDate),
 }))
+
+

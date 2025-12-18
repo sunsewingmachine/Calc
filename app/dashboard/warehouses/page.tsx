@@ -6,3 +6,5 @@ export default function WarehousesPage() {
     </div>
   )
 }
+
+

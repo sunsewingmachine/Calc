@@ -12,3 +12,5 @@ export const stockBalances = pgTable('stock_balances', {
 }, (table) => ({
   uniqueBranchWarehouseItem: unique().on(table.branchId, table.warehouseId, table.itemId),
 }))
+
+

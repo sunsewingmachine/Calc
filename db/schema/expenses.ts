@@ -17,3 +17,5 @@ export const expenses = pgTable('expenses', {
   auditedAt: timestamp('audited_at', { withTimezone: true }),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 })
+
+

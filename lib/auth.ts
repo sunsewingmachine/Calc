@@ -11,7 +11,7 @@ export interface User {
   id: string
   email: string
   name: string
-  role: 'employee' | 'admin' | 'owner'
+  role: 'viewer' | 'employee' | 'admin' | 'owner'
   branchIds: string[] // Branches the user has access to
 }
 
@@ -109,6 +109,20 @@ export async function hasPermission(
     return allowedActions.includes(action)
   }
   
+  // Viewer has read-only permissions
+  if (user.role === 'viewer') {
+    const allowedActions = [
+      'view_party',
+      'view_item',
+      'view_transaction',
+      'view_expense',
+      'view_reports',
+      'view_stock',
+      'view_cash_drawer',
+    ]
+    return allowedActions.includes(action)
+  }
+  
   return false
 }
 
@@ -129,9 +143,12 @@ export async function canAccessBranch(
     return true
   }
   
-  // Employee can only access assigned branches
+  // Employee and Viewer can only access assigned branches
   return user.branchIds.includes(branchId)
 }
+
+
+
 
 
 

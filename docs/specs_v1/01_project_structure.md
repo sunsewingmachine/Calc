@@ -159,12 +159,12 @@ Each API route:
 ```
 /docs/
  └── specs_v1/
-     ├── 00_project_structure.md
-     ├── 01_database_design_spec.md
-     ├── 02_roles_and_permissions.md
-     ├── 03_modules_functional_spec.md
-     ├── 04_fifo_stock_logic.md
-     └── 05_invoice_and_bill_format.md
+     ├── 01_project_structure.md
+     ├── 02_database_design_spec.md
+     ├── 03_roles_and_permissions.md
+     ├── 04_modules_functional_spec.md
+     ├── 05_fifo_stock_logic.md
+     └── 06_invoice_and_bill_format.md
 ```
 
 ---

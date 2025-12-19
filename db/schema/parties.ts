@@ -31,3 +31,6 @@ export const parties = pgTable('parties', {
 
 
 
+
+
+
